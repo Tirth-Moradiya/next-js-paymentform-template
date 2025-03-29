@@ -28,15 +28,15 @@ export default function PaymentForm() {
         </div>
         <div className="flex flex-col w-full md:w-1/2 overflow-y-scroll max-h-[60vh]">
           <div className="p-3">
-            <h4 className="font-extrabold text-m">
+            <h4 className="font-extrabold text-m text-black">
               Complete Registration Payment
             </h4>
           </div>
           <div className="pr-3 pb-3 pl-3 ">
-            <h4 className="font-bold text-sm">Personal Details</h4>
+            <h4 className="font-bold text-sm text-black">Personal Details</h4>
             <div className="grid grid-cols-2 gap-3 mt-3">
               <div className="flex flex-col">
-                <label className="text-xs">Address line</label>
+                <label className="text-xs text-black" >Address line</label>
                 <input
                   className="border border-gray-300 p-2 text-sm rounded"
                   type="text"
@@ -44,7 +44,7 @@ export default function PaymentForm() {
                 />
               </div>
               <div className="flex flex-col">
-                <label className="text-xs">City</label>
+                <label className="text-xs text-black">City</label>
                 <input
                   className="border border-gray-300 p-2 text-sm rounded"
                   type="text"
@@ -54,7 +54,7 @@ export default function PaymentForm() {
             </div>
             <div className="grid grid-cols-2 gap-3 mt-3">
               <div className="flex flex-col">
-                <label className="text-xs">State</label>
+                <label className="text-xs text-black">State</label>
                 <input
                   className="border border-gray-300 p-2 text-sm rounded"
                   type="text"
@@ -62,7 +62,7 @@ export default function PaymentForm() {
                 />
               </div>
               <div className="flex flex-col">
-                <label className="text-xs">Postal Code</label>
+                <label className="text-xs text-black">Postal Code</label>
                 <input
                   className="border border-gray-300 p-2 text-sm rounded"
                   type="number"
@@ -71,7 +71,7 @@ export default function PaymentForm() {
               </div>
             </div>
             <div className="mt-3">
-              <h3 className="font-bold">Payment Methods</h3>
+              <h3 className="font-bold text-black">Payment Methods</h3>
               <div className="flex gap-2 mt-2">
                 <span className="rounded">
                   <svg
@@ -222,10 +222,10 @@ export default function PaymentForm() {
               </div>
             </div>
             <div className="mt-3">
-              <h3 className="font-bold">Card Details</h3>
+              <h3 className="font-bold text-black">Card Details</h3>
               <div className="flex flex-col gap-3">
                 <div className="flex flex-col mt-3">
-                  <label className="text-xs">CardHolder Name</label>
+                  <label className="text-xs text-black">CardHolder Name</label>
 
                   <input
                     className="border border-gray-300 p-2 text-sm rounded"
@@ -234,7 +234,7 @@ export default function PaymentForm() {
                   />
                 </div>
                 <div className="flex flex-col ">
-                  <label className="text-xs">Card Number</label>
+                  <label className="text-xs text-black">Card Number</label>
 
                   <input
                     className="border border-gray-300 p-2 text-sm rounded"
@@ -245,7 +245,7 @@ export default function PaymentForm() {
                 <div className="flex gap-3">
                   <div className="grid grid-cols-2 gap-3 mt-3">
                     <div className="flex flex-col">
-                      <label className="text-xs">Expiry</label>
+                      <label className="text-xs text-black">Expiry</label>
 
                       <input
                         className="border border-gray-300 p-2 text-sm rounded"
@@ -254,7 +254,7 @@ export default function PaymentForm() {
                       />
                     </div>
                     <div className="flex flex-col">
-                      <label className="text-xs">CVC</label>
+                      <label className="text-xs text-black">CVC</label>
 
                       <input
                         className="border border-gray-300 p-2 text-sm rounded"
